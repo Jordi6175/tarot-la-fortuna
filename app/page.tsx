@@ -8,10 +8,6 @@ export default function Page() {
         background: "black",
         display: "flex",
         justifyContent: "center",
-
-        // 👇 mejoras móviles
-        touchAction: "manipulation",
-        WebkitTapHighlightColor: "transparent",
       }}
     >
       <div
@@ -31,44 +27,49 @@ export default function Page() {
           }}
         />
 
-        {/* BOTÓN WHATSAPP SUPERIOR */}
+        {/* WHATSAPP SUPERIOR */}
         <a
-          href="https://wa.me/34622091189?text=Hola%2C%20quiero%20una%20consulta"
+          href="https://wa.me/34622091189"
           target="_blank"
+          rel="noopener noreferrer"
           style={{
             position: "absolute",
-            top: "42%",
+            top: "37%",
             left: "13%",
             width: "33%",
             height: "6%",
-            zIndex: 10,
+            zIndex: 20,
+            display: "block",
           }}
         />
 
-        {/* BOTÓN LLAMAR AHORA */}
+        {/* LLAMAR */}
         <a
           href="tel:+34622091189"
           style={{
             position: "absolute",
-            top: "42%",
+            top: "37%",
             right: "13%",
             width: "33%",
             height: "6%",
-            zIndex: 10,
+            zIndex: 20,
+            display: "block",
           }}
         />
 
-        {/* BOTÓN RESERVAR ABAJO */}
+        {/* WHATSAPP RESERVAS */}
         <a
-          href="https://wa.me/34622091189?text=Hola%2C%20quiero%20reservar%20una%20consulta"
+          href="https://wa.me/34622091189"
           target="_blank"
+          rel="noopener noreferrer"
           style={{
             position: "absolute",
             bottom: "6%",
             left: "24%",
             width: "52%",
             height: "7%",
-            zIndex: 10,
+            zIndex: 20,
+            display: "block",
           }}
         />
       </div>
