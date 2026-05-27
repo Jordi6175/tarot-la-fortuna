@@ -26,7 +26,6 @@ export default function Page() {
             display: "block",
           }}
         />
-
         {/* WHATSAPP SUPERIOR */}
         <a
           href="https://wa.me/34622091189"
@@ -34,11 +33,11 @@ export default function Page() {
           rel="noopener noreferrer"
           style={{
             position: "absolute",
-            top: "37%",
-            left: "13%",
-            width: "33%",
-            height: "6%",
-            zIndex: 20,
+            top: "34.5%",
+            left: "12%",
+            width: "35%",
+            height: "7%",
+            zIndex: 30,
             display: "block",
           }}
         />
@@ -48,27 +47,27 @@ export default function Page() {
           href="tel:+34622091189"
           style={{
             position: "absolute",
-            top: "37%",
-            right: "13%",
-            width: "33%",
-            height: "6%",
-            zIndex: 20,
+            top: "34.5%",
+            right: "12%",
+            width: "35%",
+            height: "7%",
+            zIndex: 30,
             display: "block",
           }}
         />
 
-        {/* WHATSAPP RESERVAS */}
+        {/* RESERVAS ABAJO */}
         <a
           href="https://wa.me/34622091189"
           target="_blank"
           rel="noopener noreferrer"
           style={{
             position: "absolute",
-            bottom: "6%",
-            left: "24%",
-            width: "52%",
-            height: "7%",
-            zIndex: 20,
+            bottom: "4%",
+            left: "18%",
+            width: "64%",
+            height: "9%",
+            zIndex: 30,
             display: "block",
           }}
         />
