@@ -18,7 +18,7 @@ export default function Page() {
         }}
       >
         <img
-          src="/fondo-tarot.png"
+          src="/fondo-tarot2.png"
           alt="Tarot La Fortuna"
           style={{
             width: "100%",
